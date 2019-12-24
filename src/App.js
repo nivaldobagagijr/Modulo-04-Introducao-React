@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css'
 
-import palmeiras from './assets/palmeiras.png';
+import TechList from './components/TechList';
 
 function App() {
-  return <img width="200" src={palmeiras}></img>
+  return <TechList />
 }
 
 export default App;
